@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Information System</title>
+
+    <!-- CSS CONNECTION -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header>
+
+        <div class="header-box">
+
+            <div class="logo">
+                HTC
+            </div>
+
+            <div>
+                <h1>Student Information System</h1>
+
+                <p>
+                    Holy Trinity College of General Santos City
+                </p>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    
+
+    <nav>
+
+        <a href="#home">Home</a>
+
+        <a href="#students">Students</a>
+
+        <a href="#courses">Courses</a>
+
+        <a href="#attendance">Attendance</a>
+
+    </nav>
+
+
+    
+
+    <main class="container" id="home">
+
+
+        
+
+        <section class="welcome-box">
+
+            <h2>Welcome to the Student Information System</h2>
+
+            <p>
+                This system provides organized information
+                about students, courses, and attendance records.
+            </p>
+
+            <button id="viewButton">
+                View Student Records
+            </button>
+
+        </section>
+
+
+        
+
+        <section class="cards">
+
+
+            <div class="card">
+
+                <div class="icon">
+                    👨‍🎓
+                </div>
+
+                <h3>Students</h3>
+
+                <p>5 Sample Records</p>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="icon">
+                    📚
+                </div>
+
+                <h3>Courses</h3>
+
+                <p>5 Sample Records</p>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="icon">
+                    🕐
+                </div>
+
+                <h3>Attendance</h3>
+
+                <p>5 Sample Records</p>
+
+            </div>
+
+
+        </section>
+
+
+        
+
+        <section class="table-box" id="students">
+
+            <div class="table-title">
+
+                <h2>Student Records</h2>
+
+                <p>List of registered students</p>
+
+            </div>
+
+
+            <div class="table-container">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Student ID</th>
+
+                            <th>Student Name</th>
+
+                            <th>Address</th>
+
+                            <th>Contact Number</th>
+
+                            <th>Email</th>
+
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody>
+
+
+                        <tr>
+
+                            <td>2026-001</td>
+
+                            <td>Juan Dela Cruz</td>
+
+                            <td>General Santos City</td>
+
+                            <td>09171234567</td>
+
+                            <td>juan@example.com</td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>2026-002</td>
+
+                            <td>Maria Santos</td>
+
+                            <td>Polomolok</td>
+
+                            <td>09181234567</td>
+
+                            <td>maria@example.com</td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>2026-003</td>
+
+                            <td>Pedro Garcia</td>
+
+                            <td>Koronadal City</td>
+
+                            <td>09191234567</td>
+
+                            <td>pedro@example.com</td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>2026-004</td>
+
+                            <td>Ana Reyes</td>
+
+                            <td>General Santos City</td>
+
+                            <td>09201234567</td>
+
+                            <td>ana@example.com</td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>2026-005</td>
+
+                            <td>Mark Flores</td>
+
+                            <td>Malungon</td>
+
+                            <td>09211234567</td>
+
+                            <td>mark@example.com</td>
+
+                        </tr>
+
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+       
+
+        <section class="table-box" id="courses">
+
+            <div class="table-title">
+
+                <h2>Course Records</h2>
+
+                <p>List of available courses</p>
+
+            </div>
+
+
+            <div class="table-container">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Course Code</th>
+
+                            <th>Course Name</th>
+
+                            <th>Instructor</th>
+
+                            <th>Schedule</th>
+
+                            <th>Room</th>
+
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody>
+
+
+                        <tr>
+
+                            <td>IT101</td>
+
+                            <td>Introduction to Computing</td>
+
+                            <td>Mr. Santos</td>
+
+                            <td>Monday 8:00 AM</td>
+
+                            <td>Room 101</td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>IT102</td>
+
+                            <td>Programming 1</td>
+
+                            <td>Ms. Garcia</td>
+
+                            <td>Tuesday 9:00 AM</td>
+
+                            <td>Room 102</td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>IT103</td>
+
+                            <td>Database Management</td>
+
+                            <td>Mr. Reyes</td>
+
+                            <td>Wednesday 10:00 AM</td>
+
+                            <td>Room 103</td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>IT104</td>
+
+                            <td>Web Development</td>
+
+                            <td>Ms. Flores</td>
+
+                            <td>Thursday 1:00 PM</td>
+
+                            <td>Computer Lab</td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>IT105</td>
+
+                            <td>Networking</td>
+
+                            <td>Mr. Cruz</td>
+
+                            <td>Friday 2:00 PM</td>
+
+                            <td>Room 105</td>
+
+                        </tr>
+
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+        
+
+        <section class="table-box" id="attendance">
+
+            <div class="table-title">
+
+                <h2>Attendance Records</h2>
+
+                <p>Student attendance monitoring</p>
+
+            </div>
+
+
+            <div class="table-container">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Student ID</th>
+
+                            <th>Student Name</th>
+
+                            <th>Date</th>
+
+                            <th>Time In</th>
+
+                            <th>Status</th>
+
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody>
+
+
+                        <tr>
+
+                            <td>2026-001</td>
+
+                            <td>Juan Dela Cruz</td>
+
+                            <td>August 20, 2026</td>
+
+                            <td>7:45 AM</td>
+
+                            <td>
+                                <span class="present">
+                                    Present
+                                </span>
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>2026-002</td>
+
+                            <td>Maria Santos</td>
+
+                            <td>August 20, 2026</td>
+
+                            <td>7:50 AM</td>
+
+                            <td>
+                                <span class="present">
+                                    Present
+                                </span>
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>2026-003</td>
+
+                            <td>Pedro Garcia</td>
+
+                            <td>August 20, 2026</td>
+
+                            <td>8:10 AM</td>
+
+                            <td>
+                                <span class="late">
+                                    Late
+                                </span>
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>2026-004</td>
+
+                            <td>Ana Reyes</td>
+
+                            <td>August 20, 2026</td>
+
+                            <td>7:55 AM</td>
+
+                            <td>
+                                <span class="present">
+                                    Present
+                                </span>
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>2026-005</td>
+
+                            <td>Mark Flores</td>
+
+                            <td>August 20, 2026</td>
+
+                            <td>---</td>
+
+                            <td>
+                                <span class="absent">
+                                    Absent
+                                </span>
+                            </td>
+
+                        </tr>
+
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    
+
+    <footer>
+
+        <h3>
+            Holy Trinity College of General Santos City
+        </h3>
+
+        <p>
+            Student Information System
+        </p>
+
+        <p>
+            © 2026 All Rights Reserved
+        </p>
+
+    </footer>
+
+
+    
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
